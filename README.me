@@ -1,0 +1,66 @@
+# Beginner Piano
+
+> A playable piano in the browser — press keyboard keys to play notes, built with vanilla HTML, CSS, and JavaScript.
+
+---
+
+## Overview
+
+A lightweight browser-based piano covering 17 keys across two octaves (C to E). White and black keys are mapped to keyboard shortcuts and light up on press. Audio is played via HTML `<audio>` elements triggered by `keydown` events. No frameworks, no dependencies.
+
+---
+
+## Key Mapping
+
+| Key | Note | | Key | Note |
+|-----|------|-|-----|------|
+| `A` | C    | | `H` | A    |
+| `W` | C#   | | `U` | A#   |
+| `S` | D    | | `J` | B    |
+| `E` | D#   | | `K` | C    |
+| `D` | E    | | `O` | C#   |
+| `F` | F    | | `L` | D    |
+| `T` | F#   | | `P` | D#   |
+| `G` | G    | | `;` | E    |
+| `Y` | G#   | | | |
+
+---
+
+## Features
+
+- 17 playable keys — 10 white, 7 black (sharps)
+- Keyboard shortcut hints displayed on each key
+- Visual key press animation on click and keydown
+- Audio playback via external WAV files
+- Zero dependencies — pure vanilla JS
+
+---
+
+## Getting Started
+
+No build step. Just open in a browser:
+
+```bash
+git clone https://github.com/illusionoftalha/beginnner_piano.git
+cd beginnner_piano
+# open index.html in your browser
+```
+
+> **Note:** Audio is streamed from an external host. An internet connection is required for sound to work.
+
+---
+
+## Project Structure
+
+```
+beginnner_piano/
+├── index.html   # Piano markup and audio elements
+├── style.css    # Key styling, black/white layout, press animation
+└── main.js      # keydown listener and audio playback logic
+```
+
+---
+
+## License
+
+© 2026 Sheikh Muhammad Talha Bin Khalid. All Rights Reserved.
